@@ -5,11 +5,12 @@ import { Component } from '@angular/core';
 
 // Metadata:
 @Component({
+    // Selector:
     selector: 'pm-app', 
     // Template:
     template: `
     <div><h1>{{pageTitle}}</h1>
-        <div>My First Component</div>
+        <pm-products></pm-products>
     </div>
     `
 })
