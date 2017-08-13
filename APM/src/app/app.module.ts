@@ -8,7 +8,8 @@ import { ProductListComponent } from './products/product-list.component';
   imports: [ BrowserModule ],
   declarations: [ 
     AppComponent,
-    ProductListComponent
+    ProductListComponent,
+    AppModule
      ],
   bootstrap: [ AppComponent ]
 })
