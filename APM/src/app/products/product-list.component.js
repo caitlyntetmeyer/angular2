@@ -10,12 +10,13 @@ var core_1 = require("@angular/core");
 // Component decorator that defines our metadata:
 var ProductListComponent = (function () {
     function ProductListComponent() {
+        this.pageTitle = 'Product List';
     }
     ProductListComponent = __decorate([
         core_1.Component({
             selector: 'pm-products',
             // Template defining our view:
-            templateUrl: 'app/products/product-list.component.html'
+            templateUrl: './product-list.component.html'
         })
     ], ProductListComponent);
     return ProductListComponent;

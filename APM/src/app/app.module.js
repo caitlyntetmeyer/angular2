@@ -13,17 +13,20 @@ var product_list_component_1 = require("./products/product-list.component");
 var AppModule = (function () {
     function AppModule() {
     }
-    AppModule = __decorate([
+    AppModule_1 = AppModule;
+    AppModule = AppModule_1 = __decorate([
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule],
             declarations: [
                 app_component_1.AppComponent,
-                product_list_component_1.ProductListComponent
+                product_list_component_1.ProductListComponent,
+                AppModule_1
             ],
             bootstrap: [app_component_1.AppComponent]
         })
     ], AppModule);
     return AppModule;
+    var AppModule_1;
 }());
 exports.AppModule = AppModule;
 //# sourceMappingURL=app.module.js.map
